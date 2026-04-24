@@ -75,8 +75,9 @@ body{font-family:var(--body);background:var(--navy);color:#1a2a5e;overflow-x:hid
 .hero-h{font-family:var(--head);font-size:clamp(3.5rem,10vw,9rem);line-height:.9;letter-spacing:.5px;color:#1a2a5e;margin-bottom:4px;position:relative;z-index:1;}
 .hero-h .or{color:var(--orange);}
 .hero-h .sk{
-  -webkit-text-stroke:2px rgba(255,107,43,.5);
-  -webkit-text-fill-color:transparent;
+  -webkit-text-stroke:0;
+  -webkit-text-fill-color:#1a2a5e;
+  color:#1a2a5e;
 }
 
 .hero-p{font-size:.95rem;color:#111111;max-width:500px;line-height:1.75;margin:10px 0 16px;position:relative;z-index:1;}
@@ -86,7 +87,7 @@ body{font-family:var(--body);background:var(--navy);color:#1a2a5e;overflow-x:hid
 .hero-stat-strip{display:flex;gap:1px;background:rgba(26,107,255,.1);margin-bottom:18px;position:relative;z-index:1;max-width:480px;}
 .hss{flex:1;background:var(--navy);padding:14px 16px;text-align:center;}
 .hss-n{font-family:var(--head);font-size:1.6rem;color:var(--orange);line-height:1;letter-spacing:.5px;}
-.hss-l{font-size:.58rem;color:var(--muted);text-transform:uppercase;letter-spacing:.1em;margin-top:3px;}
+.hss-l{font-size:.58rem;color:#111111;text-transform:uppercase;letter-spacing:.1em;margin-top:3px;}
 
 .h-btn{display:flex;align-items:center;justify-content:center;gap:10px;background:#25D366;color:#fff;padding:16px 20px;border:none;font-family:var(--head);font-size:1.2rem;letter-spacing:1px;cursor:pointer;transition:all .25s;position:relative;z-index:1;width:100%;}
 .h-btn:hover{background:#1fbd5a;transform:translate(-2px,-2px);box-shadow:4px 4px 0 rgba(37,211,102,.3);}
@@ -145,7 +146,7 @@ body{font-family:var(--body);background:var(--navy);color:#1a2a5e;overflow-x:hid
 .bc:hover{background:var(--navy3);border-left-color:var(--orange);}
 .bcn{font-family:var(--head);font-size:2rem;color:rgba(255,107,43,.15);line-height:1;}
 .bct{font-size:.9rem;font-weight:700;color:#1a2a5e;margin-bottom:4px;}
-.bcd{font-size:.8rem;color:var(--muted);line-height:1.65;}
+.bcd{font-size:.8rem;color:#111111;line-height:1.65;}
 .bcta{background:var(--orange);padding:18px 22px;display:flex;align-items:center;justify-content:space-between;gap:12px;margin-top:1px;}
 .bctxt{font-family:var(--head);font-size:1.1rem;color:#fff;letter-spacing:.5px;}
 .btn-n{display:inline-flex;align-items:center;gap:7px;background:#25D366;color:#fff;padding:10px 20px;border:none;font-family:var(--head);font-size:.95rem;letter-spacing:.5px;cursor:pointer;transition:all .2s;white-space:nowrap;}
